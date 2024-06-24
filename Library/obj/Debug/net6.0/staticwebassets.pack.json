@@ -1,0 +1,605 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Library.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Library.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\css\\bold.css",
+      "PackagePath": "staticwebassets\\css\\bold.css"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\css\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\css\\style_table.css",
+      "PackagePath": "staticwebassets\\css\\style_table.css"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\authors\\DanBrown.PNG",
+      "PackagePath": "staticwebassets\\img\\authors\\DanBrown.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\authors\\KitRocha.PNG",
+      "PackagePath": "staticwebassets\\img\\authors\\KitRocha.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\authors\\SuzanneCollins.PNG",
+      "PackagePath": "staticwebassets\\img\\authors\\SuzanneCollins.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\blogWritter\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\blogWritter\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\blogWritter\\2.png",
+      "PackagePath": "staticwebassets\\img\\blogWritter\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\blogWritter\\3.png",
+      "PackagePath": "staticwebassets\\img\\blogWritter\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\blogWritter\\4.png",
+      "PackagePath": "staticwebassets\\img\\blogWritter\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\blogWritter\\5.png",
+      "PackagePath": "staticwebassets\\img\\blogWritter\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\blogWritter\\author1.png",
+      "PackagePath": "staticwebassets\\img\\blogWritter\\author1.png"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\books\\CatchingFire.PNG",
+      "PackagePath": "staticwebassets\\img\\books\\CatchingFire.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\books\\DanceWithTheDevil.PNG",
+      "PackagePath": "staticwebassets\\img\\books\\DanceWithTheDevil.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\books\\Divergent.PNG",
+      "PackagePath": "staticwebassets\\img\\books\\Divergent.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\books\\FromTheShadows.PNG",
+      "PackagePath": "staticwebassets\\img\\books\\FromTheShadows.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\books\\Insurgent.PNG",
+      "PackagePath": "staticwebassets\\img\\books\\Insurgent.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\books\\ItLooksLikeUs.PNG",
+      "PackagePath": "staticwebassets\\img\\books\\ItLooksLikeUs.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\books\\Mockingjay.PNG",
+      "PackagePath": "staticwebassets\\img\\books\\Mockingjay.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\books\\TheDaVinciCode.PNG",
+      "PackagePath": "staticwebassets\\img\\books\\TheDaVinciCode.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\books\\TheDemonCode.PNG",
+      "PackagePath": "staticwebassets\\img\\books\\TheDemonCode.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\books\\TheHungerGame.PNG",
+      "PackagePath": "staticwebassets\\img\\books\\TheHungerGame.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\books\\TheLightningThief.PNG",
+      "PackagePath": "staticwebassets\\img\\books\\TheLightningThief.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\books\\TheMazeRunner.PNG",
+      "PackagePath": "staticwebassets\\img\\books\\TheMazeRunner.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\books\\VisionOfVirtue.PNG",
+      "PackagePath": "staticwebassets\\img\\books\\VisionOfVirtue.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\books\\offer-1.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\offer-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\books\\u1.png",
+      "PackagePath": "staticwebassets\\img\\books\\u1.png"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\carousel-3.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\cat-1.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\cat-2.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\cat-3.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\cat-4.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\category\\HealthBar.png",
+      "PackagePath": "staticwebassets\\img\\category\\HealthBar.png"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\category\\Heart.png",
+      "PackagePath": "staticwebassets\\img\\category\\Heart.png"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\category\\action.PNG",
+      "PackagePath": "staticwebassets\\img\\category\\action.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\category\\adventure.PNG",
+      "PackagePath": "staticwebassets\\img\\category\\adventure.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\category\\comedy.PNG",
+      "PackagePath": "staticwebassets\\img\\category\\comedy.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\category\\crime.PNG",
+      "PackagePath": "staticwebassets\\img\\category\\crime.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\category\\documentary.PNG",
+      "PackagePath": "staticwebassets\\img\\category\\documentary.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\category\\drama.PNG",
+      "PackagePath": "staticwebassets\\img\\category\\drama.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\category\\fantasy.PNG",
+      "PackagePath": "staticwebassets\\img\\category\\fantasy.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\category\\horror.PNG",
+      "PackagePath": "staticwebassets\\img\\category\\horror.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\category\\mainBackGround.jpg",
+      "PackagePath": "staticwebassets\\img\\category\\mainBackGround.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\category\\mystery.PNG",
+      "PackagePath": "staticwebassets\\img\\category\\mystery.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\category\\product-2.jpg",
+      "PackagePath": "staticwebassets\\img\\category\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\category\\religion.PNG",
+      "PackagePath": "staticwebassets\\img\\category\\religion.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\category\\romance.PNG",
+      "PackagePath": "staticwebassets\\img\\category\\romance.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\category\\sci-fiction.PNG",
+      "PackagePath": "staticwebassets\\img\\category\\sci-fiction.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\category\\thriller.PNG",
+      "PackagePath": "staticwebassets\\img\\category\\thriller.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\category\\vendor-2.jpg",
+      "PackagePath": "staticwebassets\\img\\category\\vendor-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\category\\war.PNG",
+      "PackagePath": "staticwebassets\\img\\category\\war.PNG"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\logo\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\offer-1.jpg",
+      "PackagePath": "staticwebassets\\img\\offer-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\offer-2.jpg",
+      "PackagePath": "staticwebassets\\img\\offer-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\payments.png",
+      "PackagePath": "staticwebassets\\img\\payments.png"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\product-1.jpg",
+      "PackagePath": "staticwebassets\\img\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\product-2.jpg",
+      "PackagePath": "staticwebassets\\img\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\product-3.jpg",
+      "PackagePath": "staticwebassets\\img\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\product-4.jpg",
+      "PackagePath": "staticwebassets\\img\\product-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\product-5.jpg",
+      "PackagePath": "staticwebassets\\img\\product-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\product-6.jpg",
+      "PackagePath": "staticwebassets\\img\\product-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\product-7.jpg",
+      "PackagePath": "staticwebassets\\img\\product-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\product-8.jpg",
+      "PackagePath": "staticwebassets\\img\\product-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\product-9.jpg",
+      "PackagePath": "staticwebassets\\img\\product-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\img\\user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\vendor-1.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\vendor-2.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\vendor-3.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\vendor-4.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\vendor-5.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\vendor-6.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\vendor-7.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\img\\vendor-8.jpg",
+      "PackagePath": "staticwebassets\\img\\vendor-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\js\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\js\\apexcharts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\js\\bt4.js",
+      "PackagePath": "staticwebassets\\js\\bt4.js"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\js\\mainManager.js",
+      "PackagePath": "staticwebassets\\js\\mainManager.js"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\js\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\js\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\js\\popper.js",
+      "PackagePath": "staticwebassets\\js\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\js\\simple-datatables.js",
+      "PackagePath": "staticwebassets\\js\\simple-datatables.js"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dell\\Desktop\\project_Prn221\\prn221_project\\Library\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Library.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Library.props",
+      "PackagePath": "build\\Library.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Library.props",
+      "PackagePath": "buildMultiTargeting\\Library.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Library.props",
+      "PackagePath": "buildTransitive\\Library.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

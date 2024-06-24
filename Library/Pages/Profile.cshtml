@@ -1,0 +1,73 @@
+﻿@page
+@model Library.Pages.ProfileModel
+@{
+}
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card mt-5">
+                <div class="card-body">
+                    <h5 class="card-title">User Options</h5>
+                    <a href="Profile?st=1" class="card-link">User Info</a><br>
+                    <a href="Profile?st=2" class="card-link">Reset Password</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card mt-5">
+                <div class="card-body">
+                    <h5 class="card-title">Edit Profile</h5>
+                    @if (Model.status == "1")
+                    {
+                        <form asp-page="Profile" method="post">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Full name</label>
+                                <input type="text" name="fullname" class="form-control" required value="@Model.user.Fullname" id="name" placeholder="Enter your name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" value="@Model.user.Mail" id="email" readonly placeholder="Enter your email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="location" class="form-label">Location</label>
+                                <input type="text" class="form-control" id="location" placeholder="Enter your location">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Save Changes</button>
+                            <input type="text" class="form-control" value="@Model.status" id="name" name="st" placeholder="Enter your name" hidden>
+                        </form>
+                    }
+                    @if (Model.status == "2")
+                    {
+                        <form asp-page="Profile" method="post">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">User name</label>
+                                <input type="text" class="form-control" value="@Model.user.Username" id="name" placeholder="Enter your name" readonly>
+                                
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Password</label>
+                                <input type="password" name="password" value="@Model.user.Password" class="form-control" required id="password">
+                            </div>
+                            <div class="mb-3">
+                                <label for="location" class="form-label">Confirm password</label>
+                                <input type="password" name="cfPassword" class="form-control" required id="cfPassword">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Save Changes</button>
+                            <input type="text" class="form-control" value="@Model.status" id="name" name="st" placeholder="Enter your name" hidden>
+
+                        </form>
+                    }
+
+                    @if (Model.mess != null)
+                    {
+                        <div class="mb-3">
+                            <label style="color:red" for="name" class="form-label">@Model.mess</label>
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
