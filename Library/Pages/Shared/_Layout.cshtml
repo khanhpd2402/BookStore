@@ -56,14 +56,14 @@
                                 }
                                 else
                                 {
-                                    <button class="dropdown-item" type="button" onclick="window.location.href='Login'">Login</button>
+                                    <button class="dropdown-item" type="button" onclick="window.location.href='/Login'">Login</button>
                                 }
 
 
 
                                 @if (Context.Session.GetString("username") != null)
                                 {
-                                    <button class="dropdown-item" type="button" onclick="window.location.href='logout'">Logout</button>
+                                    <button class="dropdown-item" type="button" onclick="window.location.href='/logout'">Logout</button>
                                 }
                             </div>
                         </div>

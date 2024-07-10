@@ -1,4 +1,4 @@
-using LibraryCore.Models;
+﻿using LibraryCore.Models;
 using LibraryCore.UnitOfWork;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -43,6 +43,9 @@ namespace Library.Pages
             {
                 return RedirectToPage("Index");
             }
+            // Kiểm tra Referer để xác định trang gọi action Delete
+            var refererUrl = Request.Headers["Referer"].ToString();
+            bool returnUrl = refererUrl.Contains("Detail");
             Cart cart = _unitOfWork.CartRepository.FindByBookIdAndUserId(bookId, HttpContext.Session.GetInt32("userid").Value);
             if (cart != null)
             {
@@ -61,7 +64,11 @@ namespace Library.Pages
                 _unitOfWork.SaveChange();
                 HttpContext.Session.SetInt32("cartcount", _unitOfWork.CartRepository.FindByUserId(HttpContext.Session.GetInt32("userid").Value).Count);
             }
-            return RedirectToPage("Index");
+            if (returnUrl)
+            {
+                return RedirectToPage("/Book/Detail", new { id = bookId });
+            }
+            return RedirectToPage("/Book/Search");
 
         }
 
