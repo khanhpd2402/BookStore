@@ -1,16 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace LibraryCore.Models
+﻿namespace LibraryCore.Models
 {
     public partial class Book
     {
         public Book()
         {
-            Appointments = new HashSet<Appointment>();
-            BookReviews = new HashSet<BookReview>();
-            Loans = new HashSet<Loan>();
-            Reservations = new HashSet<Reservation>();
             //Authors = new HashSet<Author>();
         }
 
@@ -31,11 +24,6 @@ namespace LibraryCore.Models
 
         public virtual Category Category { get; set; } = null!;
         public virtual Author Author { get; set; } = null!;
-        public virtual ICollection<Appointment> Appointments { get; set; }
-        public virtual ICollection<BookReview> BookReviews { get; set; }
-        public virtual ICollection<Loan> Loans { get; set; }
-        public virtual ICollection<Reservation> Reservations { get; set; }
-
         public virtual ICollection<OrderDetail> OrderDetails { get; set; }
 
 

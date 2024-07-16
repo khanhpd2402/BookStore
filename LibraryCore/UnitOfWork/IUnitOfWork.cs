@@ -1,9 +1,4 @@
 ﻿using LibraryCore.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LibraryCore.UnitOfWork
 {
@@ -13,10 +8,6 @@ namespace LibraryCore.UnitOfWork
         ICategoryRepository CategoryRepository { get; }
 
         IUserRepository UserRepository { get; }
-
-        ILoanRepository LoanRepository { get; }
-
-        IAppointmentRepository AppointmentRepository { get; }
 
         ICartRepository CartRepository { get; }
 

@@ -1,8 +1,7 @@
 ﻿
-using MimeKit.Text;
-using MimeKit;
-using MailKit.Net.Smtp;
 using MailKit.Security;
+using MimeKit;
+using MimeKit.Text;
 using System.Net.Mail;
 using SmtpClient = MailKit.Net.Smtp.SmtpClient;
 
@@ -13,8 +12,8 @@ namespace LibraryCore.UnitOfWork
     {
         public bool SendEmail(string toEmail, string subject, string mess)
         {
-            var FromEmail = "caoquang139@gmail.com";
-            var pass = "gipb iyyo hydz dtza";
+            var FromEmail = "trungvkhe160192@fpt.edu.vn";
+            var pass = "iwbg gjej gjix ukmk";
 
             var email = new MimeMessage();
             email.From.Add(MailboxAddress.Parse(FromEmail));

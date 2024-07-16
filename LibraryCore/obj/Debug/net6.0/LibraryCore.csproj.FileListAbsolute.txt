@@ -42,3 +42,17 @@ D:\Semester_7\PRN221\BookStore\LibraryCore\obj\Debug\net6.0\LibraryCore.pdb
 D:\Semester_7\PRN221\BookStore\LibraryCore\obj\Debug\net6.0\LibraryCore.genruntimeconfig.cache
 D:\Semester_7\PRN221\BookStore\LibraryCore\obj\Debug\net6.0\ref\LibraryCore.dll
 D:\Semester_7\PRN221\BookStore\LibraryCore\obj\Debug\net6.0\LibraryCore.sourcelink.json
+D:\PRN221\BookStore\LibraryCore\obj\Debug\net6.0\LibraryCore.csproj.AssemblyReference.cache
+D:\PRN221\BookStore\LibraryCore\obj\Debug\net6.0\LibraryCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN221\BookStore\LibraryCore\obj\Debug\net6.0\LibraryCore.AssemblyInfoInputs.cache
+D:\PRN221\BookStore\LibraryCore\obj\Debug\net6.0\LibraryCore.AssemblyInfo.cs
+D:\PRN221\BookStore\LibraryCore\obj\Debug\net6.0\LibraryCore.csproj.CoreCompileInputs.cache
+D:\PRN221\BookStore\LibraryCore\obj\Debug\net6.0\LibraryCore.dll
+D:\PRN221\BookStore\LibraryCore\obj\Debug\net6.0\refint\LibraryCore.dll
+D:\PRN221\BookStore\LibraryCore\obj\Debug\net6.0\LibraryCore.pdb
+D:\PRN221\BookStore\LibraryCore\bin\Debug\net6.0\LibraryCore.deps.json
+D:\PRN221\BookStore\LibraryCore\bin\Debug\net6.0\LibraryCore.runtimeconfig.json
+D:\PRN221\BookStore\LibraryCore\bin\Debug\net6.0\LibraryCore.dll
+D:\PRN221\BookStore\LibraryCore\bin\Debug\net6.0\LibraryCore.pdb
+D:\PRN221\BookStore\LibraryCore\obj\Debug\net6.0\LibraryCore.genruntimeconfig.cache
+D:\PRN221\BookStore\LibraryCore\obj\Debug\net6.0\ref\LibraryCore.dll
