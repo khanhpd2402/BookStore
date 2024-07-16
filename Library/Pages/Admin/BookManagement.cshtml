@@ -2,6 +2,7 @@
 @model Library.Pages.Admin.BookManagementModel
 @{
     Layout = "Shared/_LayoutAdmin";
+    ViewData["Title"] = "Book Manage";
 }
 <div id="main">
     <header class="mb-3">
@@ -269,7 +270,7 @@
                         <input  class="form-control" asp-for="Book.Quantity">
                     </div>
                     <div class="form-group">
-                        <label asp-for="Book.AuthorId" class="col-form-label"></label>
+                        <label asp-for="Book.Author" class="col-form-label"></label>
                         <select class="form-control" asp-for="Book.AuthorId">
                             @foreach (var item in Model.Authors)
                             {

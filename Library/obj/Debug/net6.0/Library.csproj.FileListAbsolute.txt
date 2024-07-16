@@ -765,9 +765,16 @@ D:\Semester_7\PRN221\BookStore\Library\obj\Debug\net6.0\staticwebassets.developm
 D:\Semester_7\PRN221\BookStore\Library\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 D:\Semester_7\PRN221\BookStore\Library\obj\Debug\net6.0\scopedcss\bundle\Library.styles.css
 D:\Semester_7\PRN221\BookStore\Library\obj\Debug\net6.0\scopedcss\projectbundle\Library.bundle.scp.css
-D:\Semester_7\PRN221\BookStore\Library\obj\Debug\net6.0\Library.csproj.CopyComplete
 D:\Semester_7\PRN221\BookStore\Library\obj\Debug\net6.0\Library.dll
 D:\Semester_7\PRN221\BookStore\Library\obj\Debug\net6.0\refint\Library.dll
 D:\Semester_7\PRN221\BookStore\Library\obj\Debug\net6.0\Library.pdb
 D:\Semester_7\PRN221\BookStore\Library\obj\Debug\net6.0\Library.genruntimeconfig.cache
 D:\Semester_7\PRN221\BookStore\Library\obj\Debug\net6.0\ref\Library.dll
+D:\Semester_7\PRN221\BookStore\Library\obj\Debug\net6.0\Library.sourcelink.json
+D:\Semester_7\PRN221\BookStore\Library\obj\Debug\net6.0\staticwebassets\msbuild.Library.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Semester_7\PRN221\BookStore\Library\obj\Debug\net6.0\staticwebassets\msbuild.build.Library.props
+D:\Semester_7\PRN221\BookStore\Library\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Library.props
+D:\Semester_7\PRN221\BookStore\Library\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Library.props
+D:\Semester_7\PRN221\BookStore\Library\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Semester_7\PRN221\BookStore\Library\obj\Debug\net6.0\Library.csproj.Up2Date
+D:\Semester_7\PRN221\BookStore\Library\bin\Debug\net6.0\SixLabors.ImageSharp.dll

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Book Shop</title>
+    <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Library.styles.css" asp-append-version="true" />
@@ -45,9 +45,9 @@
                                 @if (Context.Session.GetString("username") != null)
                                 {
 
-                                    <a asp-page="Profile" class="dropdown-item">User profile</a>
-                                    <a asp-page="Cart" class="dropdown-item">My Cart</a>
-                                    <a asp-page="Order" class="dropdown-item">My Order</a>
+                                    <a asp-page="/Auth/Profile" class="dropdown-item">User profile</a>
+                                    <a asp-page="/Orders/Cart" class="dropdown-item">My Cart</a>
+                                    <a asp-page="/Orders/Order" class="dropdown-item">My Order</a>
                                     @if (Context.Session.GetString("role").Equals("admin"))
                                     {
                                         <a asp-page="/Admin/Dashboard" class="dropdown-item">Admin Page</a>
@@ -56,14 +56,14 @@
                                 }
                                 else
                                 {
-                                    <button class="dropdown-item" type="button" onclick="window.location.href='/Login'">Login</button>
+                                    <button class="dropdown-item" type="button" onclick="window.location.href='/Auth/Login'">Login</button>
                                 }
 
 
 
                                 @if (Context.Session.GetString("username") != null)
                                 {
-                                    <button class="dropdown-item" type="button" onclick="window.location.href='/logout'">Logout</button>
+                                    <button class="dropdown-item" type="button" onclick="window.location.href='/Auth/logout'">Logout</button>
                                 }
                             </div>
                         </div>
@@ -82,13 +82,14 @@
             </div>
             <div class="row align-items-center bg-light py-3 px-xl-5 d-none d-lg-flex">
                 <div class="col-lg-4">
-                    <a asp-page="/Index" class="text-decoration-none">
-                        <span class="h1 text-uppercase text-primary bg-dark px-2">Book</span>
-                        <span class="h1 text-uppercase text-dark bg-primary px-2 ml-n1">Shop</span>
+                    <a asp-page="/Books/Index" class="text-decoration-none d-flex align-items-center">
+                        <img src="~/img/logo/logo.png" alt="Your Logo" style="max-height: 50px;">
+                        <span class="h1 text-uppercase text-primary bg-dark px-2">Old Books</span>
+                        <span class="h1 text-uppercase text-dark bg-primary px-2 ml-n1">Store</span>
                     </a>
                 </div>
                 <div class="col-lg-4 col-6 text-left">
-                    <form method="get" action="/Book/Search">
+                    <form method="get" action="/Books/Search">
                         <div class="input-group">
                             <input type="text" name="name" class="form-control" placeholder="Search for books by title, description, publisher,...">
                             <div class="input-group-append">
@@ -116,13 +117,13 @@
                 <nav class="collapse position-absolute navbar navbar-vertical navbar-light align-items-start p-0 bg-light" id="navbar-vertical" style="width: calc(100% - 30px); z-index: 999;">
                     <div class="navbar-nav w-100">
 
-                        <a asp-page="/Book/Search" asp-route-cid="1" class="nav-item nav-link">Action</a>
+                        <a asp-page="/Books/Search" asp-route-cid="1" class="nav-item nav-link">Action</a>
 
-                        <a asp-page="/Book/Search" asp-route-cid="1" class="nav-item nav-link">Comedy</a>
+                        <a asp-page="/Books/Search" asp-route-cid="1" class="nav-item nav-link">Comedy</a>
 
-                        <a asp-page="/Book/Search" asp-route-cid="1" class="nav-item nav-link">Adventure</a>
+                        <a asp-page="/Books/Search" asp-route-cid="1" class="nav-item nav-link">Adventure</a>
 
-                        <a asp-page="/Book/Search" asp-route-cid="1" class="nav-item nav-link">Crime</a>
+                        <a asp-page="/Books/Search" asp-route-cid="1" class="nav-item nav-link">Crime</a>
 
                         <a href="" class="nav-item nav-link">Sci-Fiction</a>
 
@@ -146,14 +147,14 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
-                            <a asp-page="/Index" class="nav-item nav-link">Home</a>
-                            <a asp-page="/Book/Search" class="nav-item nav-link">Books</a>
+                            <a asp-page="/Books/Index" class="nav-item nav-link">Home</a>
+                            <a asp-page="/Books/Search" class="nav-item nav-link">Books</a>
                             @* <a href="author" class="nav-item nav-link">Authors</a> *@
                             @* <a href="blog" class="nav-item nav-link">Blog</a> *@
 
                         </div>
                         <div class="navbar-nav ml-auto py-0 d-none d-lg-block">
-                            <a asp-page="/Cart" class="btn px-0">
+                            <a asp-page="/Orders/Cart" class="btn px-0">
                                 <i class="fas fa-shopping-cart text-primary"></i>
                                 <span id="cartcounting" class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">@Context.Session.GetInt32("cartcount")</span>
                             </a>

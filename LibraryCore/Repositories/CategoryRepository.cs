@@ -8,5 +8,9 @@ namespace LibraryCore.Repositories
         {
 
         }
+        public IList<Category> GetAllCategories()
+        {
+            return dbSet.ToList();
+        }
     }
 }

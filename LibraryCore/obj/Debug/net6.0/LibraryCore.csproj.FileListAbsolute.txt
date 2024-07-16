@@ -41,3 +41,4 @@ D:\Semester_7\PRN221\BookStore\LibraryCore\obj\Debug\net6.0\refint\LibraryCore.d
 D:\Semester_7\PRN221\BookStore\LibraryCore\obj\Debug\net6.0\LibraryCore.pdb
 D:\Semester_7\PRN221\BookStore\LibraryCore\obj\Debug\net6.0\LibraryCore.genruntimeconfig.cache
 D:\Semester_7\PRN221\BookStore\LibraryCore\obj\Debug\net6.0\ref\LibraryCore.dll
+D:\Semester_7\PRN221\BookStore\LibraryCore\obj\Debug\net6.0\LibraryCore.sourcelink.json

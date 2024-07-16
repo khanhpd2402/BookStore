@@ -3,6 +3,7 @@
 @model Library.Pages.Admin.DashboardModel
 @{
     Layout = "Shared/_LayoutAdmin";
+    ViewData["Title"] = "Dashboard";
     var x = JsonSerializer.Serialize(Model.OrdersByMonth);
 }
 <div id="main" style="background-color: #f2f7ff;">

@@ -1,10 +1,12 @@
 ﻿using LibraryCore.Models;
 using LibraryCore.UnitOfWork;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Library.Pages.Admin
 {
+    [Authorize(Policy = "AdminOnly")]
     public class OrderManagementModel : PageModel
     {
         private readonly IUnitOfWork _unitOfWork;

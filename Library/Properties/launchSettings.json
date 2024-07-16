@@ -3,6 +3,7 @@
     "Library": {
       "commandName": "Project",
       "launchBrowser": true,
+      "launchUrl": "Books/Index",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
