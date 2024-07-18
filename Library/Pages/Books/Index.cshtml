@@ -2,61 +2,89 @@
 @model Library.Pages.Book.IndexModel
 @{
     ViewData["Title"] = "Home page";
-}
-<div class="container-fluid pt-5">
-    <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">Categories</span></h2>
-    <div class="row px-xl-5 pb-3">
-        
-        @foreach (var item in Model.Categories)
-        {
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" asp-page="/Books/Search" asp-route-cid="@item.CategoryId">
-                    <div class="cat-item d-flex align-items-center mb-4">
-                        <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid h-100" src="@item.Image" alt="">
-                        </div>
-                        <div class="flex-fill pl-3">
-                            <h4>@item.CategoryName</h4>
-                            <small class="text-body">@item.Books.Where(x=>x.Status.Value).ToList().Count books</small>
+ }
+
+<section class="tg-sectionspace tg-haslayout">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="tg-sectionhead">
+                    <h2><span>People’s Choice</span>Categories</h2>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div id="tg-bestsellingbooksslider" class="tg-bestsellingbooksslider tg-bestsellingbooks owl-carousel">
+                    @foreach (var item in Model.Categories)
+                    {
+                        <div class="item">
+                        <div class="tg-postbook">
+                            <figure class="tg-featureimg">
+                                <div class="tg-bookimg">
+                                        <a asp-page="/Books/Search" asp-route-cid="@item.CategoryId">
+                                            <div class="tg-frontcover" style="width: 100px; height: 100px;"><img src="@item.Image" alt="image description"></div>
+                                            <div class="tg-backcover" style="width: 100px; height: 100px;"><img src="@item.Image" alt="image description"></div>
+                                        </a>
+                                </div>
+                            </figure>
+                            <div class="tg-postbookcontent">
+                                <div class="tg-booktitle">
+                                        <h3><a asp-page="/Books/Search" asp-route-cid="@item.CategoryId">@item.CategoryName</a></h3>
+                                </div>
+                                <span class="tg-bookprice">
+                                        <ins>@item.Books.Where(x=>x.Status.Value).ToList().Count books</ins>
+                                </span>
+                            </div>
                         </div>
                     </div>
-                </a>
+                    }
+                </div>
             </div>
-
-        }
+        </div>
     </div>
-</div>
-<!-- Products Start -->
-<div class="container-fluid pt-5 pb-3">
-    <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">Latest Books</span></h2>
-    <div class="row px-xl-5">
-        @foreach(var item in Model.Book){
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                    <div class="product-item bg-light mb-4">
-                        <div class="product-img position-relative overflow-hidden">
-                            <a asp-page="/Books/Detail" asp-route-id="@item.BookId"><img class="img-fluid w-100" src="@item.Image" alt=""></a>
+</section>
 
+<section class="tg-sectionspace tg-haslayout">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="tg-sectionhead">
+                    <h2><span>Some Great Books</span>Latest Book</h2>
+                    <a class="tg-btn" href="javascript:void(0);">View All</a>
+                </div>
+            </div>
+            <div id="tg-pickedbyauthorslider" class="tg-pickedbyauthor tg-pickedbyauthorslider owl-carousel">
+                @foreach(var item in Model.Book){
+                <div class="item">
+                    <div class="tg-postbook">
+                        <figure class="tg-featureimg">
+                            <div class="tg-bookimg">
+                                    <div class="tg-frontcover"><img src="@item.Image" alt="image description"></div>
+                            </div>
+                            <div class="tg-hovercontent">
+                                <div class="tg-description">
+                                    <p>@item.Description</p>
+                                </div>
+                                <strong class="tg-bookcategory">Category: @item.Category.CategoryName</strong>
+                                    <strong class="tg-bookprice">Publication Date:@(item.PublicationDate.HasValue ? item.PublicationDate.Value.ToString("dd/MM/yyyy") : "N/A")</strong>
+                                    <div class="tg-ratingbox">
+                                    @for (int i = 1; i <= item.Rate; i++)
+                                    {
+
+                                        <span class="fa fa-star text-primary mr-1"><span></span></span>
+                                    }
+                                    </div>
+                            </div>
+                        </figure>
+                        <div class="tg-postbookcontent">
+                            <div class="tg-booktitle">
+                                    <h3><a asp-page="/Books/Detail" asp-route-id="@item.BookId">@item.Title</a></h3>
+                            </div>
+                                <span class="tg-bookwriter">By: <a href="">@item.Author.Fullname</a></span>
                         </div>
-                        <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" asp-page="/Books/Detail" asp-route-id="@item.BookId">@item.Title</a>
-                            <div class="d-flex align-items-center justify-content-center mt-2">
-                                <h5>By @item.Author.Fullname</h5>
-                            </div>
-                            <div class="d-flex align-items-center justify-content-center mt-2">
-                                @for(int i = 1 ; i <= item.Rate ; i++) {
-                                
-                                    <small class="fa fa-star text-primary mr-1"></small>
-                            }
-                            </div>
-                            <div class="d-flex align-items-center justify-content-center mt-2">
-                                <small>@item.Quantity left</small>
-                            </div>
-                        </div>
-
-
                     </div>
                 </div>
-        }
+                }
+            </div>
+        </div>
     </div>
-</div>
-<!-- Products End -->
+</section>

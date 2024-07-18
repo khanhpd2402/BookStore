@@ -25,6 +25,46 @@
       "PackagePath": "staticwebassets\\css\\bootstrap.css"
     },
     {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\css\\color-purple.css",
+      "PackagePath": "staticwebassets\\css\\color-purple.css"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\css\\color.css",
+      "PackagePath": "staticwebassets\\css\\color.css"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\css\\icomoon.css",
+      "PackagePath": "staticwebassets\\css\\icomoon.css"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
       "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -37,8 +77,172 @@
       "PackagePath": "staticwebassets\\css\\style_table.css"
     },
     {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\css\\transitions.css",
+      "PackagePath": "staticwebassets\\css\\transitions.css"
+    },
+    {
       "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\fonts\\fontawesome-webfont3e6e.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.eot"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\fonts\\fontawesome-webfont3e6e.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\fonts\\fontawesome-webfont3e6e.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.ttf"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\fonts\\fontawesome-webfont3e6e.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.woff"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\fonts\\fontawesome-webfont3e6e.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.woff2"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\fonts\\glyphicons-halflings-regulard41d.eot",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regulard41d.eot"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\fonts\\icomoonbd7d.eot",
+      "PackagePath": "staticwebassets\\fonts\\icomoonbd7d.eot"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\fonts\\icomoonbd7d.svg",
+      "PackagePath": "staticwebassets\\fonts\\icomoonbd7d.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\fonts\\icomoonbd7d.ttf",
+      "PackagePath": "staticwebassets\\fonts\\icomoonbd7d.ttf"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\fonts\\icomoonbd7d.woff",
+      "PackagePath": "staticwebassets\\fonts\\icomoonbd7d.woff"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\author\\imag-01.jpg",
+      "PackagePath": "staticwebassets\\img\\author\\imag-01.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\author\\imag-02.jpg",
+      "PackagePath": "staticwebassets\\img\\author\\imag-02.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\author\\imag-03.jpg",
+      "PackagePath": "staticwebassets\\img\\author\\imag-03.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\author\\imag-04.jpg",
+      "PackagePath": "staticwebassets\\img\\author\\imag-04.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\author\\imag-05.jpg",
+      "PackagePath": "staticwebassets\\img\\author\\imag-05.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\author\\imag-06.jpg",
+      "PackagePath": "staticwebassets\\img\\author\\imag-06.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\author\\imag-07.jpg",
+      "PackagePath": "staticwebassets\\img\\author\\imag-07.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\author\\imag-08.jpg",
+      "PackagePath": "staticwebassets\\img\\author\\imag-08.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\author\\imag-09.jpg",
+      "PackagePath": "staticwebassets\\img\\author\\imag-09.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\author\\imag-10.jpg",
+      "PackagePath": "staticwebassets\\img\\author\\imag-10.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\author\\imag-11.jpg",
+      "PackagePath": "staticwebassets\\img\\author\\imag-11.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\author\\imag-14.jpg",
+      "PackagePath": "staticwebassets\\img\\author\\imag-14.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\author\\imag-15.jpg",
+      "PackagePath": "staticwebassets\\img\\author\\imag-15.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\author\\imag-16.jpg",
+      "PackagePath": "staticwebassets\\img\\author\\imag-16.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\author\\imag-17.jpg",
+      "PackagePath": "staticwebassets\\img\\author\\imag-17.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\author\\imag-18.jpg",
+      "PackagePath": "staticwebassets\\img\\author\\imag-18.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\author\\imag-19.jpg",
+      "PackagePath": "staticwebassets\\img\\author\\imag-19.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\author\\imag-20.jpg",
+      "PackagePath": "staticwebassets\\img\\author\\imag-20.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\author\\imag-21.jpg",
+      "PackagePath": "staticwebassets\\img\\author\\imag-21.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\author\\imag-22.jpg",
+      "PackagePath": "staticwebassets\\img\\author\\imag-22.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\author\\imag-23.jpg",
+      "PackagePath": "staticwebassets\\img\\author\\imag-23.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\author\\imag-24.jpg",
+      "PackagePath": "staticwebassets\\img\\author\\imag-24.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\author\\imag-25.jpg",
+      "PackagePath": "staticwebassets\\img\\author\\imag-25.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\author\\imag-26.jpg",
+      "PackagePath": "staticwebassets\\img\\author\\imag-26.jpg"
     },
     {
       "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\authors\\DanBrown.PNG",
@@ -75,6 +279,66 @@
     {
       "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\blogWritter\\author1.png",
       "PackagePath": "staticwebassets\\img\\blogWritter\\author1.png"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\blog\\img-01.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\img-01.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\blog\\img-02.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\img-02.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\blog\\img-03.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\img-03.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\blog\\img-04.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\img-04.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\blog\\img-05.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\img-05.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\blog\\img-06.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\img-06.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\blog\\img-07.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\img-07.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\blog\\img-08.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\img-08.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\blog\\img-09.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\img-09.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\blog\\img-10.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\img-10.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\blog\\img-11.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\img-11.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\blog\\img-12.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\img-12.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\blog\\img-13.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\img-13.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\blog\\img-14.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\img-14.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\blog\\img-15.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\img-15.jpg"
     },
     {
       "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\books\\CatchingFire.PNG",
@@ -131,6 +395,62 @@
     {
       "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\books\\VisionOfVirtue.PNG",
       "PackagePath": "staticwebassets\\img\\books\\VisionOfVirtue.PNG"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\books\\banana.png",
+      "PackagePath": "staticwebassets\\img\\books\\banana.png"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\books\\bookpattren.png",
+      "PackagePath": "staticwebassets\\img\\books\\bookpattren.png"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\books\\img-01.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\img-01.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\books\\img-02.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\img-02.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\books\\img-03.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\img-03.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\books\\img-04.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\img-04.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\books\\img-05.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\img-05.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\books\\img-06.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\img-06.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\books\\img-07.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\img-07.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\books\\img-08.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\img-08.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\books\\img-09.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\img-09.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\books\\img-10.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\img-10.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\books\\img-11.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\img-11.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\books\\img-12.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\img-12.jpg"
     },
     {
       "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\books\\offer-1.jpg",
@@ -253,6 +573,94 @@
       "PackagePath": "staticwebassets\\img\\category\\war.PNG"
     },
     {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\comingsoon-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\comingsoon-bg.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\flogo.png",
+      "PackagePath": "staticwebassets\\img\\flogo.png"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\img-01.jpg",
+      "PackagePath": "staticwebassets\\img\\img-01.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\img-01.png",
+      "PackagePath": "staticwebassets\\img\\img-01.png"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\img-02.jpg",
+      "PackagePath": "staticwebassets\\img\\img-02.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\img-02.png",
+      "PackagePath": "staticwebassets\\img\\img-02.png"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\img-03.jpg",
+      "PackagePath": "staticwebassets\\img\\img-03.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\img-03.png",
+      "PackagePath": "staticwebassets\\img\\img-03.png"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\img-04.jpg",
+      "PackagePath": "staticwebassets\\img\\img-04.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\img-04.png",
+      "PackagePath": "staticwebassets\\img\\img-04.png"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\img-05.jpg",
+      "PackagePath": "staticwebassets\\img\\img-05.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\instagram\\img-01.jpg",
+      "PackagePath": "staticwebassets\\img\\instagram\\img-01.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\instagram\\img-02.jpg",
+      "PackagePath": "staticwebassets\\img\\instagram\\img-02.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\instagram\\img-03.jpg",
+      "PackagePath": "staticwebassets\\img\\instagram\\img-03.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\instagram\\img-04.jpg",
+      "PackagePath": "staticwebassets\\img\\instagram\\img-04.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\instagram\\img-05.jpg",
+      "PackagePath": "staticwebassets\\img\\instagram\\img-05.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\instagram\\img-06.jpg",
+      "PackagePath": "staticwebassets\\img\\instagram\\img-06.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\instagram\\img-07.jpg",
+      "PackagePath": "staticwebassets\\img\\instagram\\img-07.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\instagram\\img-08.jpg",
+      "PackagePath": "staticwebassets\\img\\instagram\\img-08.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\instagram\\img-09.jpg",
+      "PackagePath": "staticwebassets\\img\\instagram\\img-09.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\logo-02.png",
+      "PackagePath": "staticwebassets\\img\\logo-02.png"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
       "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\logo\\Logo-backgr.png",
       "PackagePath": "staticwebassets\\img\\logo\\Logo-backgr.png"
     },
@@ -273,8 +681,52 @@
       "PackagePath": "staticwebassets\\img\\offer-2.jpg"
     },
     {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\img\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\parallax\\bgparallax-01.jpg",
+      "PackagePath": "staticwebassets\\img\\parallax\\bgparallax-01.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\parallax\\bgparallax-02.jpg",
+      "PackagePath": "staticwebassets\\img\\parallax\\bgparallax-02.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\parallax\\bgparallax-03.jpg",
+      "PackagePath": "staticwebassets\\img\\parallax\\bgparallax-03.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\parallax\\bgparallax-04.jpg",
+      "PackagePath": "staticwebassets\\img\\parallax\\bgparallax-04.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\parallax\\bgparallax-05.jpg",
+      "PackagePath": "staticwebassets\\img\\parallax\\bgparallax-05.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\parallax\\bgparallax-06.jpg",
+      "PackagePath": "staticwebassets\\img\\parallax\\bgparallax-06.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\parallax\\bgparallax-07.jpg",
+      "PackagePath": "staticwebassets\\img\\parallax\\bgparallax-07.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\paymenticon.png",
+      "PackagePath": "staticwebassets\\img\\paymenticon.png"
+    },
+    {
       "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\payments.png",
       "PackagePath": "staticwebassets\\img\\payments.png"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\placeholder.jpg",
+      "PackagePath": "staticwebassets\\img\\placeholder.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\placeholdervtwo.jpg",
+      "PackagePath": "staticwebassets\\img\\placeholdervtwo.jpg"
     },
     {
       "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\product-1.jpg",
@@ -313,8 +765,60 @@
       "PackagePath": "staticwebassets\\img\\product-9.jpg"
     },
     {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\products\\img-01.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\img-01.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\products\\img-02.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\img-02.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\products\\img-03.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\img-03.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\products\\img-04.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\img-04.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\products\\img-05.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\img-05.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\products\\img-06.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\img-06.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\products\\img-07.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\img-07.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\team\\img-01.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\img-01.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\team\\img-02.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\img-02.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\team\\img-03.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\img-03.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\team\\img-04.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\img-04.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\team\\img-05.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\img-05.jpg"
+    },
+    {
       "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\user.jpg",
       "PackagePath": "staticwebassets\\img\\user.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\users\\img-01.jpg",
+      "PackagePath": "staticwebassets\\img\\users\\img-01.jpg"
     },
     {
       "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\vendor-1.jpg",
@@ -353,8 +857,24 @@
       "PackagePath": "staticwebassets\\js\\apexcharts.min.js"
     },
     {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\js\\appear.js",
+      "PackagePath": "staticwebassets\\js\\appear.js"
+    },
+    {
       "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\js\\bt4.js",
       "PackagePath": "staticwebassets\\js\\bt4.js"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\js\\countTo.js",
+      "PackagePath": "staticwebassets\\js\\countTo.js"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\js\\countdown.js",
+      "PackagePath": "staticwebassets\\js\\countdown.js"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\js\\gmap3.js",
+      "PackagePath": "staticwebassets\\js\\gmap3.js"
     },
     {
       "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\js\\jquery-sakura.js",
@@ -365,8 +885,28 @@
       "PackagePath": "staticwebassets\\js\\jquery-sakura.min.js"
     },
     {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\js\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\js\\jquery-ui.js"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\js\\jquery.vide.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.vide.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
       "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\js\\mainManager.js",
       "PackagePath": "staticwebassets\\js\\mainManager.js"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\js\\parallax.js",
+      "PackagePath": "staticwebassets\\js\\parallax.js"
     },
     {
       "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\js\\perfect-scrollbar.min.js",
@@ -383,6 +923,18 @@
     {
       "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\js\\vendor\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\js\\vendor\\jquery-library.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\jquery-library.js"
+    },
+    {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\js\\vendor\\modernizr-2.8.3-respond-1.4.2.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\modernizr-2.8.3-respond-1.4.2.min.js"
     },
     {
       "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\lib\\bootstrap\\LICENSE",
