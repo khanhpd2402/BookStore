@@ -12,6 +12,7 @@ namespace Library.Pages
 		public LibraryCore.Models.Category Categories { get; set; }
 		public LibraryCore.Models.Author Authors { get; set; }
 		public IList<Category> ListCategories { get; set; }
+		public int SelectedCategoryIds { get; set; }
 		public DetailModel(IUnitOfWork unitOfWork)
 		{
 			_unitOfWork = unitOfWork;
@@ -22,6 +23,7 @@ namespace Library.Pages
 			Categories = _unitOfWork.CategoryRepository.Find(Book.CategoryId);
 			Authors = _unitOfWork.AuthorRepository.Find(Book.AuthorId);
 			ListCategories = _unitOfWork.CategoryRepository.GetAll();
+			SelectedCategoryIds = Book.CategoryId;
 
 			if (Book != null)
 			{
