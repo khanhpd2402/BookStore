@@ -34,12 +34,6 @@
                 <div class="card-header">
                     @* <form asp-page="/Admin/CategoryManagement" asp-page-handler="ExportFile" method="POST"> *@
                     <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAdd">Add a new category</button>
-                    <button onclick="exportData()" class="btn btn-primary">Export file</button><br/><br/>
-
-                    <form method="post" asp-page-handler="ImportFile" enctype="multipart/form-data">
-                        <input type="file" name="csvFile" />
-                        <button type="submit">Import</button>
-                    </form>
                 </div>
 
                 @if (!string.IsNullOrEmpty(Model.ImportMessage))
@@ -117,7 +111,7 @@
                     <div class="form-group">
                         <label for="image" class="col-form-label">Image:</label>
                         <img class="form-control" id="image" name="image" style="height: fit-content" />
-                        <input type="file" name="newimage" id="newimage">
+                        <input type="text" name="newimage" id="newimage">
                     </div>
                 </div>
 

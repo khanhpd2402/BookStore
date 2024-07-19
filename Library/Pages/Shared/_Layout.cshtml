@@ -41,26 +41,25 @@
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <strong class="tg-logo"><a href="/Books/Index"><img src="~/img/logo.png" alt="company name here"></a></strong>
                             <div class="tg-wishlistandcart">
-                                <div class="dropdown tg-themedropdown tg-minicartdropdown">
-                                    <a asp-page="/Orders/Cart" class="tg-btnthemedropdown" aria-haspopup="true" aria-expanded="false">
-                                        <span class="tg-themebadge">@Context.Session.GetInt32("cartcount")</span>
-                                        <i class="icon-cart"></i>
-                                    </a>
+                                <div class="dropdown tg-themedropdown tg-wishlistdropdown">
                                     @if (Context.Session.GetString("username") == null)
                                     {
-                                        <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">Guest</button>
+                                        <a href="#" id="tg-wishlisst" class="tg-btnthemedropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <span>Guest</span>
+                                        </a>
                                     }
                                     else
                                     {
-                                        <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">@Context.Session.GetString("username")</button>
+                                        <a href="#" id="tg-wishlisst" class="tg-btnthemedropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <span>@Context.Session.GetString("username")</span>
+                                        </a>                                      
                                     }
-                                    <div class="dropdown-menu dropdown-menu-right">
+                                    <div class="dropdown-menu tg-themedropdownmenu" aria-labelledby="tg-wishlisst">
                                         @if (Context.Session.GetString("username") != null)
                                         {
-
-                                            <a asp-page="/Auth/Profile" class="dropdown-item">User profile</a>
-                                            <a asp-page="/Orders/Cart" class="dropdown-item">My Cart</a>
-                                            <a asp-page="/Orders/Order" class="dropdown-item">My Order</a>
+                                            <a asp-page="/Auth/Profile" class="tg-description">User profile</a>
+                                            <a asp-page="/Orders/Cart" class="tg-description">My Cart</a>
+                                            <a asp-page="/Orders/Order" class="tg-description">My Order</a>
                                             @if (Context.Session.GetString("role").Equals("admin"))
                                             {
                                                 <a asp-page="/Admin/Dashboard" class="dropdown-item">Admin Page</a>
@@ -69,23 +68,30 @@
                                         }
                                         else
                                         {
-                                            <button class="dropdown-item" type="button" onclick="window.location.href='/Auth/Login'">Login</button>
+                                            <button class="tg-description" type="button" onclick="window.location.href='/Auth/Login'">Login</button>
                                         }
 
 
 
                                         @if (Context.Session.GetString("username") != null)
                                         {
-                                            <button class="dropdown-item" type="button" onclick="window.location.href='/Auth/logout'">Logout</button>
+                                            <button class="tg-description" type="button" onclick="window.location.href='/Auth/logout'">Logout</button>
                                         }
                                     </div>
+
+                                </div>
+                                <div class="dropdown tg-themedropdown tg-minicartdropdown">
+                                    <a asp-page="/Orders/Cart" class="tg-btnthemedropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="tg-themebadge">@Context.Session.GetInt32("cartcount")</span>
+                                        <i class="icon-cart"></i>
+                                    </a>                                   
                                 </div>
 
                             </div>
                             <div class="tg-searchbox">
-                                <form class="tg-formtheme tg-formsearch">
+                                <form class="tg-formtheme tg-formsearch" method="get" asp-page="/Books/Search">
                                     <fieldset>
-                                        <input type="text" name="search" class="typeahead form-control" placeholder="Search by title, author, keyword, ISBN...">
+                                        <input type="text" name="name" class="typeahead form-control" placeholder="Search by title" value="@ViewData["search"]">
                                         <button type="submit"><i class="icon-magnifier"></i></button>
                                     </fieldset>
                                 </form>
@@ -114,34 +120,34 @@
                                             <div class="mega-menu">
                                                 <ul class="tg-themetabnav" role="tablist">
                                                     <li role="presentation" class="active">
-                                                        <a asp-page="/Books/Search" asp-route-cid="1" aria-controls="artandphotography" role="tab" data-toggle="tab">Action</a>
+                                                        <a asp-page="/Books/Search" asp-route-cid="1" >Action</a>
                                                     </li>
                                                     <li>
-                                                        <a asp-page="/Books/Search" asp-route-cid="2" aria-controls="biography" role="tab" data-toggle="tab">Comedy</a>
+                                                        <a asp-page="/Books/Search" asp-route-cid="2" >Comedy</a>
                                                     </li>
                                                     <li role="presentation">
-                                                        <a asp-page="/Books/Search" asp-route-cid="3" aria-controls="childrensbook" role="tab" data-toggle="tab">Adventure</a>
+                                                        <a asp-page="/Books/Search" asp-route-cid="3" >Adventure</a>
                                                     </li>
                                                     <li role="presentation">
-                                                        <a asp-page="/Books/Search" asp-route-cid="4" aria-controls="craftandhobbies" role="tab" data-toggle="tab">Crime</a>
+                                                        <a asp-page="/Books/Search" asp-route-cid="4" >Crime</a>
                                                     </li>
                                                     <li role="presentation">
-                                                        <a asp-page="/Books/Search" asp-route-cid="5" aria-controls="crimethriller" role="tab" data-toggle="tab">Sci-Fiction</a>
+                                                        <a asp-page="/Books/Search" asp-route-cid="5" >Sci-Fiction</a>
                                                     </li>
                                                     <li role="presentation">
-                                                        <a asp-page="/Books/Search" asp-route-cid="10" aria-controls="fantasyhorror" role="tab" data-toggle="tab">Religion</a>
+                                                        <a asp-page="/Books/Search" asp-route-cid="10" >Religion</a>
                                                     </li>
                                                     <li role="presentation">
-                                                        <a asp-page="/Books/Search" asp-route-cid="11" aria-controls="fiction" role="tab" data-toggle="tab">Romance</a>
+                                                        <a asp-page="/Books/Search" asp-route-cid="11" >Romance</a>
                                                     </li>
                                                     <li role="presentation">
-                                                        <a asp-page="/Books/Search" asp-route-cid="12" aria-controls="fooddrink" role="tab" data-toggle="tab">War</a>
+                                                        <a asp-page="/Books/Search" asp-route-cid="12" >War</a>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </li>
                                         <li><a asp-page="/Books/Index">Home</a></li>
-                                        <li><a asp-page="#">Authors</a></li>
+                                        <li><a asp-page="/Books/Authors">Authors</a></li>
                                         <li><a asp-page="/Books/Search">Book</a></li>
                                     </ul>
                                 </div>
