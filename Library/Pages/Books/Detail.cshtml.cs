@@ -27,11 +27,11 @@ namespace Library.Pages
 
 			if (Book != null)
 			{
-				//BooksByCategory = _unitOfWork.BookRepository.GetAll().Where(x => x.CategoryId == Book.CategoryId
-				//															&& x.BookId != Book.BookId
-				//															&& x.Status.Value).OrderByDescending(x => x.BookId).ToList();
+				BooksByCategory = _unitOfWork.BookRepository.GetAll().Where(x => x.CategoryId == Book.CategoryId
+																			&& x.BookId != Book.BookId
+																			&& x.Status.Value).OrderByDescending(x => x.BookId).ToList();
 
-				BooksByCategory = _unitOfWork.BookRepository.GetAll().Where(x => x.AuthorId == Authors.AuthorId).ToList();
+				//BooksByCategory = _unitOfWork.BookRepository.GetAll().Where(x => x.AuthorId == Authors.AuthorId).ToList();
 				ViewData["Title"] = Book.Title;
 			}
 

@@ -14,15 +14,15 @@ namespace Library.Pages.Admin
         {
             _unitOfWork = unitOfWork;
         }
+        public IList<int> OrdersByMonth { get; set; }
         public int CountUser { get; set; }
-        public int CountBook { get; set; }
         public int CountOrder { get; set; }
-        public int[] OrdersByMonth { get; set; }
+        public int CountBook { get; set; }
         public void OnGet()
         {
             OrdersByMonth = _unitOfWork.OrderRepository.CountOrdersByMonth();
             CountUser = _unitOfWork.UserRepository.GetAll().Count;
-            CountOrder = _unitOfWork.OrderRepository.GetAll().Count;
+            CountOrder = _unitOfWork.OrderRepository.GetAll().Where(x => x.OrderDate.Date == DateTime.Now.Date).Count();
             CountBook = _unitOfWork.BookRepository.GetAll().Count;
         }
     }

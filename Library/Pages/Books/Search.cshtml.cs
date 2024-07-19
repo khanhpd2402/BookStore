@@ -15,6 +15,8 @@ namespace Library.Pages.Book
 
         public IList<LibraryCore.Models.Book> Books { get; set; }
         public IList<Category> Categories { get; set; }
+        public int CurrentPage { get; set; }
+        public int TotalPages { get; set; }
 
         public void OnGet(List<int> cid, int? pages, string? name)
         {
@@ -31,17 +33,20 @@ namespace Library.Pages.Book
                 pages = 1;
             }
 
-            if (!String.IsNullOrEmpty(name))
+            if (!string.IsNullOrEmpty(name))
             {
                 all = all.Where(x =>
                     x.Title.ToLower().Contains(name.ToLower()) || x.Author.Fullname.ToLower().Contains(name.ToLower())).ToList();
             }
 
+            int pageSize = 8;
+            CurrentPage = pages.Value;
+            TotalPages = (int)Math.Ceiling(all.Count / (double)pageSize);
+
             ViewData["idValue"] = cid;
-            ViewData["pages"] = pages;
             ViewData["search"] = name;
-            ViewData["countPage"] = Math.Ceiling(all.Count / 3d);
-            Books = all.Skip((pages.Value - 1) * 3).Take(8).ToList();
+
+            Books = all.Skip((CurrentPage - 1) * pageSize).Take(pageSize).ToList();
         }
     }
 }

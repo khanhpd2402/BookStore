@@ -18,6 +18,20 @@
     <link rel="stylesheet" href="~/css/main.css">
     <link rel="stylesheet" href="~/css/color.css">
     <link rel="stylesheet" href="~/css/responsive.css">
+    <style>
+        #tg-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: #fff;
+        }
+
+        body {
+            padding-top: 120px; /* Điều chỉnh cho phù hợp với chiều cao header */
+        }
+    </style>
 </head>
 
 <body class="tg-home tg-homeone">
@@ -148,7 +162,7 @@
                                         </li>
                                         <li><a asp-page="/Books/Index">Home</a></li>
                                         <li><a asp-page="/Books/Authors">Authors</a></li>
-                                        <li><a asp-page="/Books/Search">Book</a></li>
+                                        <li><a asp-page="/Books/Search">Books</a></li>
                                     </ul>
                                 </div>
                             </nav>
