@@ -40,10 +40,12 @@
                     @foreach (var author in Model.authors)
                     {
                         <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+
                             <div class="tg-author">
-                                <figure><a href="javascript:void(0);"><img  style="width: 153px; height:153px" src="@author.Image" alt="@author.Fullname"></a></figure>
+                                <figure><a href="javascript:void(0);"><img style="width: 153px; height:153px" src="@author.Image" alt="@author.Fullname"></a></figure>
                                 <div class="tg-authorcontent">
-                                    <h2><a href="javascript:void(0);">@author.Fullname</a></h2>
+                                    <h2><a asp-page="AuthorDetail" asp-route-id="@author.AuthorId">@author.Fullname</a></h2>
+                                    <span></span>
                                     <ul class="tg-socialicons">
                                         <li class="tg-facebook"><a href="javascript:void(0);"><i class="fa fa-facebook"></i></a></li>
                                         <li class="tg-twitter"><a href="javascript:void(0);"><i class="fa fa-twitter"></i></a></li>
