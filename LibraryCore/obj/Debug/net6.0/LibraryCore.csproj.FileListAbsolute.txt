@@ -56,3 +56,4 @@ D:\PRN221\BookStore\LibraryCore\bin\Debug\net6.0\LibraryCore.dll
 D:\PRN221\BookStore\LibraryCore\bin\Debug\net6.0\LibraryCore.pdb
 D:\PRN221\BookStore\LibraryCore\obj\Debug\net6.0\LibraryCore.genruntimeconfig.cache
 D:\PRN221\BookStore\LibraryCore\obj\Debug\net6.0\ref\LibraryCore.dll
+D:\Semester_7\PRN221\BookStore\LibraryCore\bin\Debug\net6.0\appsettings.json

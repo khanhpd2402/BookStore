@@ -11047,19 +11047,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\acer\\.nuget\\packages\\": {}
+    "C:\\Users\\khanh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PRN221\\BookStore\\Library\\Library.csproj",
+      "projectUniqueName": "D:\\Semester_7\\PRN221\\BookStore\\Library\\Library.csproj",
       "projectName": "Library",
-      "projectPath": "D:\\PRN221\\BookStore\\Library\\Library.csproj",
-      "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-      "outputPath": "D:\\PRN221\\BookStore\\Library\\obj\\",
+      "projectPath": "D:\\Semester_7\\PRN221\\BookStore\\Library\\Library.csproj",
+      "packagesPath": "C:\\Users\\khanh\\.nuget\\packages\\",
+      "outputPath": "D:\\Semester_7\\PRN221\\BookStore\\Library\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\khanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11073,8 +11073,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\PRN221\\BookStore\\LibraryCore\\LibraryCore.csproj": {
-              "projectPath": "D:\\PRN221\\BookStore\\LibraryCore\\LibraryCore.csproj"
+            "D:\\Semester_7\\PRN221\\BookStore\\LibraryCore\\LibraryCore.csproj": {
+              "projectPath": "D:\\Semester_7\\PRN221\\BookStore\\LibraryCore\\LibraryCore.csproj"
             }
           }
         }
@@ -11083,6 +11083,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -11135,7 +11140,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }
