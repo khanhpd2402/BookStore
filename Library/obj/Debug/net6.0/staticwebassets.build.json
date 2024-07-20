@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "g5+sCXRva3TwIyr0Ht1eZiURKkPwJU/12q+JzQ+pzus=",
+  "Hash": "0pQkCzKQ2UogVoQRxLVrmPIV4Sd0vvYb8qtEMoPsic4=",
   "Source": "Library",
   "BasePath": "_content/Library",
   "Mode": "Default",
@@ -678,6 +678,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\fonts\\icomoonbd7d.woff"
+    },
+    {
+      "Identity": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\comingsoon-bg.jpg",
+      "SourceId": "Library",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\PRN221\\BookStore\\Library\\wwwroot\\",
+      "BasePath": "_content/Library",
+      "RelativePath": "img/comingsoon-bg.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\comingsoon-bg.jpg"
     },
     {
       "Identity": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\flogo.png",

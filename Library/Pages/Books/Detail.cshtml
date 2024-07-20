@@ -40,9 +40,9 @@
                                             <div class="tg-postbookcontent">
                                                 <span class="tg-bookprice">
                                                     <ins>&euro; @Model.Book.Price </ins>
-                                                    <del>&euro; @(Model.Book.Price * 1.1)</del>
+                                                    <del>&euro; @(Model.Book.Price * 2)</del>
                                                 </span>
-                                                <span class="tg-bookwriter">You save &euro; @(Model.Book.Price * 1.1 - Model.Book.Price)</span>
+                                                <span class="tg-bookwriter">You save &euro; @(Model.Book.Price * 2 - Model.Book.Price)</span>
                                                 <ul class="tg-delevrystock">
                                                     <li><i class="icon-rocket"></i><span>Free delivery worldwide</span></li>
                                                     <li><i class="icon-checkmark-circle"></i><span>Dispatch from the VN in 2 working days </span></li>
@@ -97,7 +97,7 @@
                                                 <h2>Product Details</h2>
                                             </div>
                                             <ul class="tg-productinfo">
-                                                <li><span>Publication Date:</span><span>@Model.Book.PublicationDate</span></li>
+                                                <li><span>Publication Date:</span><span>@Model.Book.PublicationDate.Value.ToString("dd/MM/yyyy")</span></li>
                                                 <li><span>Publisher:</span><span>@Model.Book.Publisher</span></li>
                                                 <li><span>Other Fomate:</span><span>CD-Audio, Paperback, E-Book</span></li>
                                             </ul>
@@ -136,7 +136,7 @@
                                             </div>
                                             <div class="tg-authorbox">
                                                 <figure class="tg-authorimg">
-                                                    <img src="@Model.Book.Author.Image" alt="image description">
+                                                    <img src="@Model.Book.Author.Image" style="width: 153px; height:153px" alt="image description">
                                                 </figure>
                                                 <div class="tg-authorinfo">
                                                     <div class="tg-authorhead">
@@ -196,7 +196,7 @@
                                                                 }
                                                                 <span class="tg-bookprice">
                                                                     <ins>&euro; @item.Price</ins>
-                                                                    <del>&euro; @(item.Price * 1.1)</del>
+                                                                    <del>&euro; @(item.Price * 2)</del>
                                                                 </span>
                                                                 <a class="tg-btn tg-btnstyletwo" asp-page="/Orders/Cart" asp-page-handler="AddCart" asp-route-bookId="@item.BookId">
                                                                     <i class="fa fa-shopping-basket"></i>

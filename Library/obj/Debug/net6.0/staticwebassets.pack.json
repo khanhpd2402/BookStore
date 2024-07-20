@@ -153,6 +153,10 @@
       "PackagePath": "staticwebassets\\fonts\\icomoonbd7d.woff"
     },
     {
+      "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\comingsoon-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\comingsoon-bg.jpg"
+    },
+    {
       "Id": "D:\\PRN221\\BookStore\\Library\\wwwroot\\img\\flogo.png",
       "PackagePath": "staticwebassets\\img\\flogo.png"
     },

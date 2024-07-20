@@ -139,7 +139,7 @@ namespace Library.Pages.Orders
             HttpContext.Session.SetInt32("cartcount", 0);
             _unitOfWork.SaveChange();
 
-            return RedirectToPage("/Books/Index");
+            return RedirectToPage("/Orders/CheckoutSuccess");
         }
     }
 }

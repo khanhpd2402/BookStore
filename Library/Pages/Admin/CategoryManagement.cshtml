@@ -33,7 +33,7 @@
             <div class="card">
                 <div class="card-header">
                     @* <form asp-page="/Admin/CategoryManagement" asp-page-handler="ExportFile" method="POST"> *@
-                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAdd">Add a new category</button>
+                    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalAdd">Add a new category</button>
                 </div>
 
                 @if (!string.IsNullOrEmpty(Model.ImportMessage))
@@ -117,7 +117,7 @@
 
                 <!-- Modal footer -->
                 <div class="modal-footer">
-                    <input type="submit" value="Save" class="btn btn-primary" />
+                    <input type="submit" value="Save" class="btn btn-success" />
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                 </div>
             </form>
@@ -185,7 +185,7 @@
 
                 <!-- Modal footer -->
                 <div class="modal-footer">
-                    <input type="submit" value="Add" class="btn btn-primary" />
+                    <input type="submit" value="Add" class="btn btn-success" />
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                 </div>
             </form>
