@@ -1,6 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using System.IO;
 
 namespace LibraryCore.Models
 {
@@ -26,7 +24,7 @@ namespace LibraryCore.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("server=ZAOZ;database=LibraryDB;uid=KhanhPD;pwd=123;Integrated Security=True;TrustServerCertificate=True;");
+                optionsBuilder.UseSqlServer("server=VKTRUNG\\SQLEXPRESS;database=LibraryDB;uid=sa;pwd=sa;Integrated Security=True;TrustServerCertificate=True;");
             }
         }
 
