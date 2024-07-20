@@ -24,7 +24,7 @@ namespace LibraryCore.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("server=VKTRUNG\\SQLEXPRESS;database=LibraryDB;uid=sa;pwd=sa;Integrated Security=True;TrustServerCertificate=True;");
+                optionsBuilder.UseSqlServer("server=VKTRUNG\\SQLEXPRESS;database=BookLibraryDB;uid=sa;pwd=sa;Integrated Security=True;TrustServerCertificate=True;");
             }
         }
 
